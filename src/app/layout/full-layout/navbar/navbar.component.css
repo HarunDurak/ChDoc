@@ -9,3 +9,6 @@ img{
 #navbarSupportedContent{
   justify-content: end;
 }
+#alignText{
+  font-size: 20px;
+}

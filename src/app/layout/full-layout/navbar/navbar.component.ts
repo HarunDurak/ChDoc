@@ -12,10 +12,8 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
   @Input() array : any [] = [];
   @Output() searchEvent:EventEmitter<any>=new EventEmitter<any>();
-
 
   searchEvent1(event:any){
    this.searchEvent.emit()
@@ -24,7 +22,5 @@ export class NavbarComponent implements OnInit {
   logOut(){
     console.log('Çıkış yapıldı.');
   }
-
-
 
 }

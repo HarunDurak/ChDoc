@@ -2,24 +2,24 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid" id="sideBar">
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div id="alignText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link active" href="#">User</a>
         </li>
       </ul>
     </div>
       <form class="d-flex">
 
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" (input)="searchEvent1($event)">
-        <img src="assets/img/login.png"  (click)="logOut()" alt="logOut">
+        <img src="assets/img/login.png" routerLink="login" routerLinkActive="active"  alt="logOut">
       </form>
     </div>
   </div>

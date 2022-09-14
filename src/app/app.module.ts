@@ -8,6 +8,7 @@ import { SidebarComponent } from './layout/full-layout/sidebar/sidebar.component
 import { NavbarComponent } from './layout/full-layout/navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { TablesComponent } from './components/tables/tables.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { TabsComponent } from './components/tabs/tabs.component';
     NavbarComponent,
     LoginComponent,
     TabsComponent,
+    TablesComponent,
   ],
   imports: [
     BrowserModule,

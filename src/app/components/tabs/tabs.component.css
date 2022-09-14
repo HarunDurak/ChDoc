@@ -1,3 +1,14 @@
-#pills-tab{
-  background-color: black;
+#v-pills-tab{
+  background-color: darkgrey;
+  /* height: 40em;
+  max-height: 50rem; */
+  width: 15%;
+}
+.nav-link{
+  color:black;
+  font-weight: 500;
+  font-size: 20px;
+}
+.text{
+  font-size: 18px;
 }
